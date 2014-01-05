@@ -11,7 +11,7 @@ let g:loaded_endwise = 1
 
 augroup endwise " {{{1
   autocmd!
-  autocmd FileType c,cpp,objc,javc,scala
+  autocmd FileType c,cpp,objc,java,scala
         \ let b:endwise_addition = '}' |
         \ let b:endwise_words = '{' |
         \ let b:endwise_pattern = '\%(else\s*\)\@<!{\s*$' |
